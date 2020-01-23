@@ -31,10 +31,6 @@ namespace PetGrooming.Models
 
 
 
-        //Representing the Many in (One species to Many Pets)
-        
-        public int SpeciesID { get; set; }
-        [ForeignKey("SpeciesID")]
-        public virtual Species Species { get; set; }
+
     }
 }
